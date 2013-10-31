@@ -15,36 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\main.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Modulos\Apresentacao\Apresentacao.c">
+    <ClCompile Include="Modulos\Apresentacao\Apresentacao.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Modulos\Logica\Logica.c">
+    <ClCompile Include="Modulos\Logica\Logica.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Modulos\Persistencia\Persistencia_Produtos.c">
+    <ClCompile Include="Modulos\Persistencia\Persistencia_Produtos.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Modulos\Persistencia\Persistencia_Usuario.c">
+    <ClCompile Include="Modulos\Persistencia\Persistencia_Usuario.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Padroes.h">
+    <ClInclude Include="Padroes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Modulos\Apresentacao\Apresentacao.h">
+    <ClInclude Include="Modulos\Apresentacao\Apresentacao.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Modulos\Logica\Logica.h">
+    <ClInclude Include="Modulos\Logica\Logica.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Modulos\Persistencia\Persistencia_Produtos.h">
+    <ClInclude Include="Modulos\Persistencia\Persistencia_Produtos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Modulos\Persistencia\Persistencia_Usuario.h">
+    <ClInclude Include="Modulos\Persistencia\Persistencia_Usuario.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

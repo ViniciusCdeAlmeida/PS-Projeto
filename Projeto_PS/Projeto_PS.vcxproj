@@ -10,6 +10,20 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="Modulos\Apresentacao\Apresentacao.c" />
+    <ClCompile Include="Modulos\Logica\Logica.c" />
+    <ClCompile Include="Modulos\Persistencia\Persistencia_Produtos.c" />
+    <ClCompile Include="Modulos\Persistencia\Persistencia_Usuario.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Modulos\Apresentacao\Apresentacao.h" />
+    <ClInclude Include="Modulos\Logica\Logica.h" />
+    <ClInclude Include="Modulos\Persistencia\Persistencia_Produtos.h" />
+    <ClInclude Include="Modulos\Persistencia\Persistencia_Usuario.h" />
+    <ClInclude Include="Padroes.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{32D4BAD0-4357-4640-9D52-C6FB523D0E15}</ProjectGuid>
     <RootNamespace>Projeto_PS</RootNamespace>
@@ -63,20 +77,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\main.c" />
-    <ClCompile Include="..\..\Modulos\Apresentacao\Apresentacao.c" />
-    <ClCompile Include="..\..\Modulos\Logica\Logica.c" />
-    <ClCompile Include="..\..\Modulos\Persistencia\Persistencia_Produtos.c" />
-    <ClCompile Include="..\..\Modulos\Persistencia\Persistencia_Usuario.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Modulos\Apresentacao\Apresentacao.h" />
-    <ClInclude Include="..\..\Modulos\Logica\Logica.h" />
-    <ClInclude Include="..\..\Modulos\Persistencia\Persistencia_Produtos.h" />
-    <ClInclude Include="..\..\Modulos\Persistencia\Persistencia_Usuario.h" />
-    <ClInclude Include="..\..\Padroes.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
